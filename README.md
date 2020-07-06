@@ -1,13 +1,11 @@
 # OpenZeppelin GSNV1 Example
 
-# Start UI
+## Quick Start
+
+Insert command into the terminal:
 
 ```bash
-$ yarn
-```
-
-```bash
-$ cd ./client && yarn start
+$ git clone https://github.com/ilyakmet/openzeppelin-gsn-example.git && cd ./openzeppelin-gsn-example && yarn && cd ./client && yarn && yarn start
 ```
 
 RelayHub: `0xd216153c06e857cd7f72665e0af1d7d82172f494`
