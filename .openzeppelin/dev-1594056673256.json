@@ -1,0 +1,154 @@
+{
+  "contracts": {
+    "Counter": {
+      "address": "0xd591939329D322a4e590967E31fa47E29d41B02b",
+      "constructorCode": "608060405234801561001057600080fd5b50610cda806100206000396000f3fe",
+      "bodyBytecodeHash": "4820d65e1538dc15b7aedf0e786534643088156c0529c3cff8f1a033eb71defd",
+      "localBytecodeHash": "243f1865ebadce397020cb122cbb5a1f69b04103ba160479d73fa865a41729cc",
+      "deployedBytecodeHash": "243f1865ebadce397020cb122cbb5a1f69b04103ba160479d73fa865a41729cc",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        },
+        "t_array:49<t_uint256>": {
+          "id": "t_array:49<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "49",
+          "kind": "array",
+          "label": "uint256[49]"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+          "label": "initialized",
+          "astId": 765,
+          "type": "t_bool",
+          "src": "757:24:4"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+          "label": "initializing",
+          "astId": 768,
+          "type": "t_bool",
+          "src": "876:25:4"
+        },
+        {
+          "contract": "Initializable",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+          "label": "______gap",
+          "astId": 833,
+          "type": "t_array:50<t_uint256>",
+          "src": "1982:29:4"
+        },
+        {
+          "contract": "ContextUpgradeSafe",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol",
+          "label": "__gap",
+          "astId": 43,
+          "type": "t_array:50<t_uint256>",
+          "src": "1277:25:0"
+        },
+        {
+          "contract": "GSNRecipientUpgradeSafe",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/GSNRecipient.sol",
+          "label": "_relayHub",
+          "astId": 81,
+          "type": "t_address",
+          "src": "1175:25:1"
+        },
+        {
+          "contract": "GSNRecipientUpgradeSafe",
+          "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/GSNRecipient.sol",
+          "label": "__gap",
+          "astId": 424,
+          "type": "t_array:49<t_uint256>",
+          "src": "10134:25:1"
+        },
+        {
+          "contract": "Counter",
+          "path": "contracts/Counter.sol",
+          "label": "value",
+          "astId": 841,
+          "type": "t_uint256",
+          "src": "183:20:5"
+        },
+        {
+          "contract": "Counter",
+          "path": "contracts/Counter.sol",
+          "label": "_owner",
+          "astId": 843,
+          "type": "t_address",
+          "src": "210:22:5"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": [
+          {
+            "action": "append",
+            "updated": {
+              "index": 7,
+              "contract": "Counter",
+              "path": "contracts/Counter.sol",
+              "label": "_owner",
+              "astId": 843,
+              "type": "t_address",
+              "src": "210:22:5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "openzeppelin-gsn-example/Counter": [
+      {
+        "address": "0x88E051BEfe2666Db6457077e139f9E1076E7b1ce",
+        "version": "1.0.0",
+        "implementation": "0xD00e3Eb9d6ed9Fe19409cA5Dd03Aa672d6553430",
+        "admin": "0x770baA383296BB2268206e94617837cD3b6EE826",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x99E9A6881E0BFE05C12eEe1cb402f03b46838707",
+        "version": "1.0.0",
+        "implementation": "0xd591939329D322a4e590967E31fa47E29d41B02b",
+        "admin": "0x770baA383296BB2268206e94617837cD3b6EE826",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x770baA383296BB2268206e94617837cD3b6EE826"
+  }
+}
