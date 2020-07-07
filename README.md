@@ -1,5 +1,7 @@
 # OpenZeppelin GSNV1 Example
 
+[OpenZeppelin Forum Issue](https://forum.openzeppelin.com/t/usegns-doesnt-work-in-tests/3272)
+
 RelayHub: `0xd216153c06e857cd7f72665e0af1d7d82172f494`
 
 Rinkeby Instance: `0x6961Bd62DD5FE82D7123d329fe9d9A345467535c`
