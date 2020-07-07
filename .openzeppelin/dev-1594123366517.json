@@ -1,0 +1,14 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "openzeppelin-gsn-example/Counter": [
+      {
+        "address": "0x7f7f7A8A45D54A641f19aE22ef19A3282209DaA4",
+        "kind": "NonProxy",
+        "bytecodeHash": "5a50e53e44c413e5d7ab70b5338a82f57a9db00daa17fd793a6dfe3230dbd8f4"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}

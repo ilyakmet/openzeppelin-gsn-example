@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@openzeppelin/network": "^0.4.2",
+    "@openzeppelin/test-environment": "^0.1.4",
     "truffle-hdwallet-provider": "^1.0.17"
   },
   "devDependencies": {
