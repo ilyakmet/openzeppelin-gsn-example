@@ -1,4 +1,5 @@
 node_modules
-.openzeppelin/.session
-yarn.lock
 .DS_Store
+.openzeppelin/.session
+build
+package-lock.json

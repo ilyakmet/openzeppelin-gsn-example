@@ -1,8 +1,6 @@
 {
   "manifestVersion": "2.2",
-  "contracts": {
-    "Counter": "Counter"
-  },
+  "contracts": {},
   "dependencies": {},
   "name": "openzeppelin-gsn-example",
   "version": "1.0.0",
@@ -17,9 +15,8 @@
       "enabled": false
     },
     "manager": "openzeppelin",
-    "solcVersion": "0.6.10",
+    "solcVersion": "0.6.11",
     "artifactsDir": "build/contracts",
     "contractsDir": "contracts"
-  },
-  "telemetryOptIn": false
+  }
 }
